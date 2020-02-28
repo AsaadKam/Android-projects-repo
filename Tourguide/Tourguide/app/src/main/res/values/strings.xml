@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Tour guide</string>
+    //Hotel Names
+    <string name="Hotels">Hotels</string>
+    <string name="First_Hotel">Baron Palace Sahl Hasheesh. </string>
+    <string name="Second_Hotel">Stella Di Mare Beach Hotel and Spa.</string>
+    <string name="Third_Hotel">Hilton Luxor Resort and Spa.</string>
+    <string name="Fourth_Hotel">Barcelo Tiran Sharm .</string>
+    //Hotel Rating
+    <string name="four_stars">4 stars.</string>
+    <string name="five_stars">5 stars</string>
+    <string name="six_stars">6 stars</string>
+    //Restaurants Names
+    <string name="Restaurants">Restaurants</string>
+    <string name="First_Restaurants">Maestro Italian Restaurant. </string>
+    <string name="Second_Restaurants">Birdcage.</string>
+    <string name="Third_Restaurants">The Grill Restaurant and Lounge.</string>
+    <string name="Fourth_Restaurants">Fayruz Lebanese Restaurant. </string>
+    //Restaurants Rating
+    <string name="high_rate_service">High rate service. </string>
+    <string name="meduim_rate_service">Meduim rate service.</string>
+    //Museums Names
+    <string name="Museums">Museums</string>
+    <string name="Egyptian_Museum">Egyptian Museum.</string>
+    <string name="Alexandria_National_Museum">Alexandria National Museum.</string>
+    <string name="Greeko_Roman_museum">Greeko Roman Museum.</string>
+    <string name="Luxor_Museum">Luxor Museum. </string>
+    //Museums Positions
+    <string name="In_Cairo">In Cairo</string>
+    <string name="In_Luxor">In Luxor.</string>
+    <string name="In_Alexandria">In Alexandria.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:gravity="center"
+            android:text="@string/FINAL"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            />
+        <TextView
+
+            android:background="@color/darkgreen"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/goals_ID_liver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="0"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/Liverpool"
+                    android:textSize="35sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/liverpool" />
+
+                <Button
+                    android:text="Goal"
+                    android:background="@color/greenyellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:onClick="incr_goals_for_liver"
+                    android:layout_marginBottom="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:background="@color/red"
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="incr_red_cards_for_Liver"/>
+
+                    <TextView
+                        android:id="@+id/red_ID_liver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red"
+                        android:layout_marginLeft="5dp"
+                        android:text="0  Redcards    " />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:background="@color/yellow"
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="incr_yellow_cards_for_Liver"/>
+
+                    <TextView
+                        android:id="@+id/yellow_ID_liver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/yellowgreen"
+                        android:text="@string/yellowcards" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:background="@color/darkgreen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/goals_ID_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="0"
+                    android:textColor="@color/cadetblue"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/city"
+                    android:textColor="@color/cadetblue"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/man" />
+
+                <Button
+                    android:text="Goal"
+                    android:background="@color/greenyellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:onClick="incr_goals_for_city"
+                    android:layout_marginBottom="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:background="@color/red"
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="incr_red_cards_for_city"/>
+
+                    <TextView
+                        android:id="@+id/red_ID_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/red"
+                        android:text="0  Redcards    " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:background="@color/yellow"
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="incr_yellow_cards_for_city"/>
+
+                    <TextView
+                        android:id="@+id/yellow_ID_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/yellowgreen"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/yellowcards" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+
+            android:background="@color/darkgreen"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:text="Finish the match."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/greenyellow"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:onClick="reset"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+
+            android:background="@color/darkgreen"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+</ScrollView>
+

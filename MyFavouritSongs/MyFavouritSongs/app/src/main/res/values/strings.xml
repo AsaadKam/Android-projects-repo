@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My favourite songs</string>
+    <string name="arabicSongs">Arabic Songs</string>
+    <string name="englishSongs">English Songs</string>
+    <string name="playingNowSongs">Playing Now</string>
+
+</resources>

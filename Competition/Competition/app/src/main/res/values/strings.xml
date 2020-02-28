@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FootPlay Competition.</string>
+    <string name="FINAL">Final Match</string>
+    <string name="redcards">0  Redcards  </string>
+    <string name="yellowcards">0 Yellowcards</string>
+    <string name="todo">TODO</string>
+    <string name="city">Man city</string>
+    <string name="Liverpool">Liverpool</string>
+
+</resources>
+

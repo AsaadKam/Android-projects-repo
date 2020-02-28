@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.udacity.myapplication.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:scaleType="center"
+        android:src="@drawable/soccer" />
+
+    <TextView
+        android:id="@+id/foot_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:text="FootPlay"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/foot_text_view"
+        android:layout_marginLeft="16dp"
+        android:text="Reserve it deserves"
+        android:textStyle="bold"
+        android:textColor="#263238"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Website_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="-Website:www.FootPlay.com."
+        android:textStyle="bold"
+        android:textColor="#EEFF41"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Website_text_view"
+        android:layout_marginLeft="16dp"
+        android:text="-Contact:13564."
+        android:textStyle="bold"
+        android:textColor="#EEFF41"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
+
+

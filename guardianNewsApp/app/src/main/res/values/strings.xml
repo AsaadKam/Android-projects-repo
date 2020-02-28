@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guardian Sport News</string>
+    <string name="no_articles">No articles found.</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="url_guardin">https://content.guardianapis.com/search?api-key=85a7db0b-5fc5-4f51-a147-48a8d2c9edab</string>
+    <string name="title_activity_bad_connection_page">badConnectionPage</string>
+    <string name="title_activity_articles">ArticlesActivity</string>
+    <string name="Refresh">Refresh</string>
+</resources>
